@@ -1,0 +1,38 @@
+/*Font Families*/
+/*font-family: 'Lobster', cursive;
+font-family: 'Catamaran', sans-serif;*/
+
+body {
+	background-image: url("../images/crystalBackground.jpg");
+	background-size: 100%;
+	font-family: 'Catamaran', sans-serif;
+}
+
+.jumbotron {
+	margin: -20px 0px -20px 0px;
+	height: 200px;
+}
+
+.jumbotron h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 60pt;
+	color: #bf3f96;
+	margin: -30px 0px 0px 20px;
+}
+
+.jumbotron p {
+	margin: 10px 0px 0px 20px;
+}
+
+.container {
+	margin-top: 60px;
+}
+.panel-title {
+	font-family: 'Lobster', cursive;
+	font-size: 20pt;
+}
+.panel-body {
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+}

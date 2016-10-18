@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shari's Crystal Collector</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/cerulean/bootstrap.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Catamaran|Lobster" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<div class="jumbotron">
+  <h1>Crystal Collector</h1>
+  <p>The object of the game is to match the random number provided. Click on the crystals to add to your number.
+  <br>Match the number and you WIN!</p>
+</div>
+
+<!-- Game Numbers -->
+<div class="container">
+	<div class="col-lg-4">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+    			<h3 class="panel-title">Number to Match</h3>
+  			</div>
+  			<div class="panel-body">
+    			<p id="numberToMatch"></p>
+  			</div>
+  		</div>
+  	</div>		
+
+
+	<div class="col-lg-4">
+		<div class="panel panel-success">
+  			<div class="panel-heading">
+    			<h3 class="panel-title">Your number</h3>
+  			</div>
+  			<div class="panel-body">
+    			<p id="wonLoss"></p>
+  			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Gems to click -->
+<div id="crystalImage"></div>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
